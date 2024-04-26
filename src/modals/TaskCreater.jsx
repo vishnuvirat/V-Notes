@@ -55,7 +55,7 @@ const TaskCreator = ({ modal, toggle, save }) => {
         </form>
       </ModalBody>
       <ModalFooter>
-        <Button className="createBtn" onClick={toggle} onClick={saveTask}>
+        <Button className="createBtn" onClick={saveTask}>
           Create
         </Button>{" "}
         <Button className="cancelBtn" onClick={toggle}>
